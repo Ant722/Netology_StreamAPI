@@ -34,10 +34,10 @@ public class Person {
     }
     @Override
     public String toString(){
-        return "Person{" +
-                "name = " + name + '\n' +
-                ", family = " + family + "\n" +
-                ", age = " + age +
+        return "\n" + "Person{" +
+                "name = " + name +
+                ", family = " + family +
+                ",\n age = " + age +
                 ", sex = " + sex +
                 ", education = " + education + "}";
     }
